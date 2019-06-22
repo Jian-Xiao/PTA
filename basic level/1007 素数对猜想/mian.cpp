@@ -15,7 +15,7 @@ bool judge(int a){
     if(a==1){
         return false;
     }
-    if(a==3||a==5||a==7){
+    if(a==2||a==3||a==5||a==7){
         return true;
     }
     if(a%2==0||a%6!=5&&a%6!=1){
