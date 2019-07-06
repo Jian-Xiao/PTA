@@ -21,7 +21,7 @@ int cmp(Student a,Student b){
     if(a.height!=b.height)
         return a.height>b.height;
     else
-        return strcmp(a.name.c_str(),b.name.c_str());
+        return a.name<b.name;
 }
 int main(){
     int n,k;
