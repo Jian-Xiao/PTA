@@ -6,7 +6,6 @@
 //Copyright  2019年 Robert. All rights reserved.
 //
 
-
 #include <iostream>
 #include <string>
 #include <algorithm>
