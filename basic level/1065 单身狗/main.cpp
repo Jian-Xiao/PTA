@@ -33,11 +33,10 @@ int main(){
     }
     for( it=mm2.begin();it!=mm2.end();it++){
         int curID=it->first;
-         if(!mm[curID]||!mm2[mm[curID]]){
+         if(mm.find(curID)==mm.end()||mm2.find(mm[curID])==mm2.end()){
             single.push_back(curID);
         }
     }
-    sort(single.begin(),single.end()); 
     printf("%d\n",single.size());
     int first=1;
     for(int i:single){
